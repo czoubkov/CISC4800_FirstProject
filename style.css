@@ -1,0 +1,109 @@
+html {
+    font-family: "Trebuchet MS";
+}
+body {
+    margin: auto;
+}
+header {
+    height: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: inherit;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+} 
+.active {
+    background-color: #ff0000;
+}
+.parallax {
+    background-image: url("/pics/highway.jpg");
+    height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxText {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+.content {
+    border: solid black 1px;
+    background-color: #cccccc;    
+}
+.content ol {
+    text-align: center;
+    list-style-position: inside;
+    padding-top: 25px;
+    font-size: 22px;
+    font-weight: 800;
+    
+}
+.products {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+.products img {
+    height: 300px;
+}
+.productCard {
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    border: solid #b3b3b3 2px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    height: 550px;
+}
+button {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    font-weight: 800;
+    font-size: 18px;
+    box-shadow: 0 2px #999;
+}
+button:hover {
+    background-color: #cc0000;
+}
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px #999;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
